@@ -1,0 +1,31 @@
+{
+  "name": "Amplify Vue3",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "amplify",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "misterj.vue-volar-extention-pack",
+    "aws-amplify.aws-amplify-vscode",
+    "GraphQL.vscode-graphql",
+    "CoenraadS.bracket-pair-colorizer-2",
+    "oderwat.indent-rainbow",
+    "eamodio.gitlens"
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "johnsoncodehk.volar"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "eslint.workingDirectories": [{ "mode": "auto" }]
+  }
+}
