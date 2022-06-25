@@ -3,11 +3,7 @@ version: '3.8'
 services:
   amplify:
     build: ./web
-    ports:
-      - 8080:8080
-      - 20002:20002
     stdin_open: true
-    # privileged: true
     working_dir: '/app'
     volumes:
       - ../server:/app
