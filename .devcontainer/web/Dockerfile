@@ -7,5 +7,5 @@ RUN apt update; apt-get install -y java-18-amazon-corretto-jdk
 # git-flow
 RUN apt install git-flow
 # vue & amplify
-RUN npm install -g @aws-amplify/cli@9.0.0
-RUN npm install -g @vue/cli@5.0.6
+RUN yarn global add @aws-amplify/cli@9.0.0
+RUN yarn global add @vue/cli@5.0.6

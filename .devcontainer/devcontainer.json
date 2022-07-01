@@ -8,7 +8,7 @@
     "aws-amplify.aws-amplify-vscode",
     "GraphQL.vscode-graphql",
     "oderwat.indent-rainbow",
-    "eamodio.gitlens"
+    "mhutchie.git-graph"
   ],
   "settings": {
     "editor.formatOnSave": true,
@@ -20,7 +20,7 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[vue]": {
-      "editor.defaultFormatter": "johnsoncodehk.volar"
+      "editor.defaultFormatter": "Vue.volar"
     },
     "[json]": {
       "editor.defaultFormatter": "vscode.json-language-features"
