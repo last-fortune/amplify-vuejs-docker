@@ -2,17 +2,16 @@ version: '3.8'
 
 services:
   amplify:
-    image: amplify-vuejs/app:1.0
-    container_name: amplify-vuejs
     build: ./web
     ports:
-      - 8080:8080
+      # yarn dev
+      - 3000:3000
+      # mock api
       - 20002:20002
     stdin_open: true
-    # privileged: true
     working_dir: '/app'
     volumes:
       - ../server:/app
-      #credential,configを保管したい人向け
-      - ../dev/aws/:/root/.aws/
+      # credential,configを保管したい人向け
+      # - ../dev/aws/:/root/.aws/
     tty: true
